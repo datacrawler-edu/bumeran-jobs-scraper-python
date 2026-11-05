@@ -1,0 +1,150 @@
+{
+  "repository": {
+    "name": "bumeran-jobs-scraper-python",
+    "description": "Bumeran jobs API examples in Python, JavaScript and cURL. Collect LATAM vacancies, run country searches and export JSON or CSV.",
+    "homepage": "https://apify.com/datascraperes/bumeran-jobs-scraper?fpr=edudata",
+    "language": "Python",
+    "license": "MIT"
+  },
+  "actor": {
+    "displayName": "Bumeran Jobs Scraper",
+    "id": "datascraperes/bumeran-jobs-scraper",
+    "storeUrl": "https://apify.com/datascraperes/bumeran-jobs-scraper",
+    "apiBaseUrl": "https://api.apify.com/v2/acts/datascraperes~bumeran-jobs-scraper",
+    "description": "Public job listings from Bumeran, Laborum, Multitrabajos and Konzerta across seven LATAM countries."
+  },
+  "affiliate": {
+    "enabled": true,
+    "parameter": "fpr=edudata",
+    "actorUrl": "https://apify.com/datascraperes/bumeran-jobs-scraper?fpr=edudata",
+    "pricingUrl": "https://apify.com/pricing?fpr=edudata"
+  },
+  "platform": {
+    "apifyFreePlan": {
+      "monthlyPrepaidUsage": "$5",
+      "renewsMonthly": true,
+      "noCreditCardRequired": true,
+      "unusedCreditsExpire": true,
+      "sourceUrl": "https://apify.com/pricing?fpr=edudata"
+    }
+  },
+  "interfaces": {
+    "web": {
+      "enabled": true,
+      "inputTab": "Input",
+      "outputTab": "Dataset",
+      "runAction": "Start",
+      "primaryInput": "query",
+      "inputLabel": "Job title or keyword",
+      "inputSummary": "Choose countries, enter a job title or keyword and set a small total number of jobs.",
+      "exportFormats": [
+        "JSON",
+        "CSV",
+        "Excel"
+      ]
+    },
+    "api": {
+      "enabled": true,
+      "examples": [
+        "cURL",
+        "Python",
+        "JavaScript"
+      ]
+    }
+  },
+  "seo": {
+    "primaryKeyword": "Bumeran jobs scraper Python",
+    "secondaryKeywords": [
+      "Bumeran API",
+      "LATAM job data CSV",
+      "Laborum jobs Python",
+      "Multitrabajos jobs API"
+    ],
+    "topics": [
+      "bumeran",
+      "jobs",
+      "latam",
+      "python",
+      "apify",
+      "csv",
+      "api",
+      "laborum",
+      "multitrabajos",
+      "konzerta"
+    ],
+    "longTailIntents": [
+      "Export Bumeran jobs to CSV with Python",
+      "Collect job listings across LATAM countries",
+      "Run several keyword searches with bounded spending"
+    ]
+  },
+  "content": {
+    "readmeSectionOrder": [
+      "What this repository helps you do",
+      "Example result",
+      "Run without code",
+      "Try it with Apify's free plan",
+      "Quick start for developers",
+      "Input example",
+      "Request examples",
+      "Output fields",
+      "Common use cases",
+      "Long-tail use-case sections",
+      "FAQ",
+      "Limits and pricing",
+      "Hosted version",
+      "Responsible use",
+      "Support"
+    ],
+    "exampleFiles": [
+      "examples/python/collect_jobs.py",
+      "examples/python/batch_job_searches.py",
+      "examples/python/export_jobs_csv.py"
+    ],
+    "faqFile": "docs/faq.md"
+  },
+  "pricing": {
+    "summary": "Pay per event: one job-result for each unique saved job; no separate detail fee.",
+    "unit": "one unique saved job",
+    "price": "$0.75–$1.00 per 1,000 jobs equivalent, depending on Apify tier"
+  },
+  "distribution": {
+    "githubUrl": "https://github.com/datacrawler-edu/bumeran-jobs-scraper-python",
+    "actorToGithubUrl": "https://github.com/datacrawler-edu/bumeran-jobs-scraper-python",
+    "githubToActorUrl": "https://apify.com/datascraperes/bumeran-jobs-scraper?fpr=edudata",
+    "organizationHubUrl": "https://github.com/datacrawler-edu",
+    "firstRelease": {
+      "tag": "v1.0.0",
+      "title": "Bumeran job data integration examples"
+    }
+  },
+  "examples": {
+    "inputFile": "data/sample-input.json",
+    "outputFile": "data/sample-output.json",
+    "csvFile": "data/sample-output.csv"
+  },
+  "measurement": {
+    "observationWindowDays": 30,
+    "githubSignals": [
+      "views",
+      "uniqueVisitors",
+      "clones",
+      "referrers",
+      "popularContent"
+    ],
+    "apifySignals": [
+      "users",
+      "runs",
+      "datasetItems",
+      "revenue"
+    ],
+    "searchChecks": [
+      "site:github.com/datacrawler-edu/bumeran-jobs-scraper-python",
+      "Bumeran jobs scraper Python CSV"
+    ]
+  },
+  "support": {
+    "issuesUrl": "https://github.com/datacrawler-edu/bumeran-jobs-scraper-python/issues",
+    "actorSupportUrl": "https://apify.com/datascraperes/bumeran-jobs-scraper?fpr=edudata"
+  }
+}

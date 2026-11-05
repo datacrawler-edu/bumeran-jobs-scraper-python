@@ -1,0 +1,18 @@
+{
+  "countryCodes": [
+    "AR"
+  ],
+  "query": "desarrollador",
+  "maxItems": 3,
+  "sort": "recent",
+  "area": "",
+  "subarea": "",
+  "province": "",
+  "workType": "",
+  "workModality": "",
+  "seniority": "",
+  "contractType": "",
+  "datePosted": "any",
+  "disabilityFriendly": false,
+  "quickApply": false
+}

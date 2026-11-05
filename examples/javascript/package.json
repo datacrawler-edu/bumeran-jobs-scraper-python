@@ -1,0 +1,8 @@
+{
+  "name": "bumeran-jobs-api-examples",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  }
+}
